@@ -6,3 +6,6 @@ before_install:
   - echo "BEFORE INSTALL START"
   - gem install bundler
   - echo "BEFORE INSTALL END"
+
+  script:
+  - echo "hello world"
